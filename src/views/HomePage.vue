@@ -305,7 +305,7 @@ import Footer from "../components/footer.vue"
     </section>
 
     <!-- fifth section -->
-    <section class="font-[assistant] bg-fixed" style="background-image: url('https://www.microprixs.com/wp-content/uploads/2023/08/new-1.jpg'); background-position:bottom" >
+    <section class="font-[assistant] bg-fixed bg-white bg-cover bg-top pb-6" style="background-image: url('https://www.microprixs.com/wp-content/uploads/2023/08/new-1.jpg'); background-position:bottom" >
         <div class="px-4 py-10 text-white flex flex-col justify-center">
             <button class="bg-[#ffffff00] leading-normal py-2 text-2xl px-6 border-2 rounded-full my-8">Hurry up! Look Into Your Project Today</button>
             <p class="text-4xl font-bold text-center mt-10">Free Consultation With Our Experts</p>
