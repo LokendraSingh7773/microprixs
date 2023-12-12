@@ -220,7 +220,7 @@ import Footer from "../components/footer.vue"
     </div>
         <div>
             <!-- inner 1st div -->
-            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-4 mt-8 rounded-lg">
+            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-5 mt-8 rounded-lg">
                 <div class="flex justify-center ">
                 <img class="h-[150px] w-[150px] rounded-full border-4 my-3" src="https://www.microprixs.com/wp-content/uploads/2023/08/SEO1.jpg"/>
             </div>
@@ -229,7 +229,7 @@ import Footer from "../components/footer.vue"
             </div>
 
             <!-- inner 2nd div -->
-            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-4 mt-8 rounded-lg">
+            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-5 mt-8 rounded-lg">
                 <div class="flex justify-center ">
                 <img class="h-[150px] w-[150px] rounded-full border-4 my-3" src="https://www.microprixs.com/wp-content/uploads/2023/08/app-Development-ui.jpg"/>
             </div>
@@ -238,7 +238,7 @@ import Footer from "../components/footer.vue"
             </div>
 
             <!-- inner 3rd div -->
-            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-4 mt-8 rounded-lg">
+            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-5 mt-8 rounded-lg">
                 <div class="flex justify-center ">
                 <img class="h-[150px] w-[150px] rounded-full border-4 my-3" src="https://www.microprixs.com/wp-content/uploads/2023/08/IVR.jpg"/>
             </div>
@@ -247,7 +247,7 @@ import Footer from "../components/footer.vue"
             </div>
 
             <!-- inner 4th div -->
-            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-4 mt-8 rounded-lg">
+            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-5 mt-8 rounded-lg">
                 <div class="flex justify-center ">
                 <img class="h-[150px] w-[150px] rounded-full border-4 my-3" src="https://www.microprixs.com/wp-content/uploads/2023/08/IOT.png"/>
             </div>
@@ -256,7 +256,7 @@ import Footer from "../components/footer.vue"
             </div>
 
             <!-- inner 5th div -->
-            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-4 mt-8 rounded-lg">
+            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-5 mt-8 rounded-lg">
                 <div class="flex justify-center ">
                 <img class="h-[150px] w-[150px] rounded-full border-4 my-3" src="https://www.microprixs.com/wp-content/uploads/2023/08/WEb-1.png"/>
             </div>
@@ -265,7 +265,7 @@ import Footer from "../components/footer.vue"
             </div>
 
             <!-- inner 6th div -->
-            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-4 mt-8 rounded-lg">
+            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-5 mt-8 rounded-lg">
                 <div class="flex justify-center ">
                 <img class="h-[150px] w-[150px] rounded-full border-4 my-3" src="https://www.microprixs.com/wp-content/uploads/2023/08/CRM.png"/>
             </div>
@@ -281,22 +281,22 @@ import Footer from "../components/footer.vue"
     <section class="bg-[#1f365c] font-[assistant] pb-12" >
         <div class="py-12">
             <!-- inner div -->
-            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-4  rounded-lg">
+            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-5  rounded-lg">
                 <span><i class="fa fa-industry text-5xl border-[6px] p-3 rounded-full border-[#282828] text-[#282828]"></i></span>
                 <p class="py-6 text-xl font-bold">INDUSTRY SPECIFIC</p>
                 <p class="text-[#3e3d3c] leading-relaxed">Experience-Microprixs works across a myriad of industry segments. Our teams are organized in virtual divisions that have the domain expertise and know-how within each industry to offer exceptional technology solutions.</p>
             </div>
-            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-4  rounded-lg mt-8">
+            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-5  rounded-lg mt-8">
                 <span><i class="fa fa-life-bouy text-5xl border-[6px] p-3 rounded-full border-[#282828] text-[#282828]"></i></span>
                 <p class="py-6 text-xl font-bold">SCALABILITY AND SUPPRT</p>
                 <p class="text-[#3e3d3c] leading-relaxed">Microprixs collaborates closely with you to align with your software objectives. Our expertise guides us in identifying the most promising avenues for investment, ensuring your resources are wisely allocated. </p>
             </div>
-            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-4  rounded-lg mt-8">
+            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-5  rounded-lg mt-8">
                 <span><i class="fa fa-plug text-5xl border-[6px] p-3 rounded-full border-[#282828] text-[#282828]"></i></span>
                 <p class="py-6 text-xl font-bold">YOU OWN THE SOURCE CODE AND IP</p>
                 <p class="text-[#3e3d3c] leading-relaxed">Microprixs fully customizable software solutions require no licensing fees at project completion. Under our agreement,you will own the source code and intellectual property of your proprietary software.</p>
             </div>
-            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-4  rounded-lg mt-8">
+            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-5  rounded-lg mt-8">
                 <span><i class="fa fa-clock-o text-5xl border-[6px] py-3 px-4 rounded-full border-[#282828] text-[#282828]"></i></span>
                 <p class="py-6 text-xl font-bold">REAL-TIME COMMUNICATION AND COLLABORATION</p>
                 <p class="text-[#3e3d3c] leading-relaxed">Microprixs has always followed a “customer comes first” philosophy. Our governance is simple, flexible, and focused on providing end results to our clientele.</p>
