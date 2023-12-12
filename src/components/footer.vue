@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-    <section class="font-[assistant] bg-cover" style="background-image:url('https://www.microprixs.com/wp-content/themes/biz-pro/images/footer-bg.jpg')">
+    <section class="font-[assistant] bg-cover bg-center" style="background-image:url('https://www.microprixs.com/wp-content/themes/biz-pro/images/footer-bg.jpg')">
         <div class="px-4 py-8 text-white">
             <!-- 1st inner div -->
             <div class="">
