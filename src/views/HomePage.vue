@@ -27,49 +27,49 @@ export default {
   </section>
 
   <!-- First Slider Section -->
-    <section class="font-[assistant]">
+    <section class="font-[assistant] ">
 <div id="default-carousel" class="relative w-full" data-carousel="slide">
     <!-- Carousel wrapper -->
-    <div class="relative  overflow-hidden h-96">
+    <div class="relative  overflow-hidden h-96 lg:h-[30rem] xl:h-[41rem]">
          <!-- Item 1 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <div class="hidden duration-700 ease-in-out sm:px-16" data-carousel-item>
             <img src="/img/icons/1st_slide.png" class="sm:hidden absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover h-96 sm:h-96" alt="...">
-            <img src="https://www.microprixs.com/wp-content/uploads/2021/01/micro1.png" class="hidden absolute sm:block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover h-96 sm:h-96" alt="...">
+            <img src="https://www.microprixs.com/wp-content/uploads/2021/01/micro1.png" class="hidden absolute sm:block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover h-96 sm:h-96  lg:h-[30rem] xl:h-[41rem]" alt="...">
            <div class="absolute home-slider-overlay bg-[#1f365cd9] left-0 top-0 h-full min-[550px]:w-[47%] "></div>
-            <div class="relative text-white px-4 mt-8  md:w-[45%]">
-                <p class="font-bold text-3xl sm:mt-8">Microprixs Solution</p>
-                <p class="text-base pr-8 mt-4  sm:pr-2 sm:w-[45%]">Microprixs is more than an IT company, we're dedicated to revolutionizing the way businesses interact with their target audience through cutting-edge web development solutions. we lay the foundation for success by meticulously crafting strategies that align with your business goals and objectives. Our team delves into the intricacies of your business, ensuring that our solutions are tailored to address your specific needs.</p>
+            <div class="relative text-white px-4 mt-8 lg:pt-6 xl:px-20 xl:pt-10">
+                <p class="font-bold text-3xl sm:mt-8 sm:text-5xl xl:text-6xl xl:pr-52 xl:w-1/2">Microprixs Solution</p>
+                <p class="text-base pr-8 mt-4 sm:pt-4 sm:pr-2 lg:w-[45%] xl:pr-36 leading-relaxed">Microprixs is more than an IT company, we're dedicated to revolutionizing the way businesses interact with their target audience through cutting-edge web development solutions. we lay the foundation for success by meticulously crafting strategies that align with your business goals and objectives. Our team delves into the intricacies of your business, ensuring that our solutions are tailored to address your specific needs.</p>
                 <button class="hidden sm:block text-black bg-[#fff] px-4 py-1 rounded-md mt-8 font-[playfor-display]">View Details</button>
             </div>
         </div>
         <!-- Item 2 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://www.microprixs.com/wp-content/uploads/2021/01/business_log.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover h-96  sm:h-96" alt="...">
+        <div class="hidden duration-700 ease-in-out sm:px-16" data-carousel-item>
+            <img src="https://www.microprixs.com/wp-content/uploads/2021/01/business_log.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover h-96  sm:h-96 lg:h-[30rem] xl:h-[41rem]" alt="...">
             <div class="absolute home-slider-overlay bg-[#1f365cd9] left-0 top-0 h-full min-[550px]:w-[50%]"></div>
-            <div class="relative text-white px-4 mt-8">
-                <p class="font-bold text-3xl sm:mt-8">Business Consulting</p>
-                <p class="text-base pr-8 mt-4  sm:pr-2 sm:w-[45%]">Elevate your company's success with our expert Business Consulting services. We specialize in aligning technological prowess with strategic vision. Our seasoned consultants craft tailored solutions that drive growth and efficiency. From strategic roadmaps to operational excellence, we help you navigate challenges, stand out in the competitive landscape, and adapt to industry trends. With a focus on measurable results, we're your partner in achieving sustainable success.</p>
+            <div class="relative text-white px-4 mt-8 lg:pt-6 xl:px-20 xl:pt-10">
+                <p class="font-bold text-3xl sm:mt-8 sm:text-5xl xl:text-6xl xl:pr-52 xl:w-1/2">Business Consulting</p>
+                <p class="text-base pr-8 mt-4 sm:pt-4 sm:pr-2 lg:w-[45%] xl:pr-36 leading-relaxed ">Elevate your company's success with our expert Business Consulting services. We specialize in aligning technological prowess with strategic vision. Our seasoned consultants craft tailored solutions that drive growth and efficiency. From strategic roadmaps to operational excellence, we help you navigate challenges, stand out in the competitive landscape, and adapt to industry trends. With a focus on measurable results, we're your partner in achieving sustainable success.</p>
                 <button class="hidden sm:block text-black bg-[#fff] px-4 py-1 rounded-md mt-8 font-[playfor-display]">View Details</button>
             </div>
         </div>
         <!-- Item 3 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://www.microprixs.com/wp-content/uploads/2021/01/app-d2.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover h-96 sm:h-96" alt="...">
+        <div class="hidden duration-700 ease-in-out sm:px-16" data-carousel-item>
+            <img src="https://www.microprixs.com/wp-content/uploads/2021/01/app-d2.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover h-96 sm:h-96 lg:h-[30rem] xl:h-[41rem]" alt="...">
             <div class="absolute home-slider-overlay bg-[#1f365cd9] left-0 top-0 h-full min-[550px]:w-[50%] "></div>
-            <div class="relative text-white px-4 mt-8">
-                <p class="font-bold text-3xl sm:mt-8">App Development</p>
-                <p class="text-base pr-8 mt-4  sm:pr-2 sm:w-[45%]">Experience the pinnacle of digital innovation through our Web Development services. As a leading IT company, we specialize in crafting dynamic and responsive websites that reflect your brand's uniqueness. Our expert developers blend creativity with coding excellence, ensuring seamless functionality and captivating design. From e-commerce platforms to interactive portfolios, we tailor solutions that resonate with your target audience.</p>
+            <div class="relative text-white px-4 mt-8 lg:pt-6 xl:px-20 xl:pt-10">
+                <p class="font-bold text-3xl sm:mt-8 sm:text-5xl xl:text-6xl xl:pr-52 xl:w-1/2">App Development</p>
+                <p class="text-base pr-8 mt-4 sm:pt-4 sm:pr-2 lg:w-[45%] xl:pr-36 leading-relaxed">Experience the pinnacle of digital innovation through our Web Development services. As a leading IT company, we specialize in crafting dynamic and responsive websites that reflect your brand's uniqueness. Our expert developers blend creativity with coding excellence, ensuring seamless functionality and captivating design. From e-commerce platforms to interactive portfolios, we tailor solutions that resonate with your target audience.</p>
                 <button class="hidden sm:block text-black bg-[#fff] px-4 py-1 rounded-md mt-8 font-[playfor-display]">View Details</button>
             </div>
         </div>
         
         <!-- Item 4 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://www.microprixs.com/wp-content/uploads/2021/01/web.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover h-96 sm:h-96" alt="...">
+        <div class="hidden duration-700 ease-in-out sm:px-16" data-carousel-item>
+            <img src="https://www.microprixs.com/wp-content/uploads/2021/01/web.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover h-96 sm:h-96 lg:h-[30rem] xl:h-[41rem]" alt="...">
             <div class="absolute home-slider-overlay bg-[#1f365cd9] left-0 top-0 h-full min-[550px]:w-[50%] "></div>
-            <div class="relative text-white px-4 mt-8">
-                <p class="font-bold text-3xl sm:mt-8">Web Development</p>
-                <p class="text-base pr-8 mt-4  sm:pr-2 sm:w-[45%]">Unlock the potential of your ideas with our App Development services. We transform concepts into captivating apps by blending strategic vision with cutting-edge technology. From user-centric design to seamless multi-platform functionality, we craft apps that engage and impress. Our agile approach ensures swift development, while post-launch support guarantees lasting performance. Let us be your partner in turning aspirations into innovative, user-friendly, and impactful applications.</p>
+            <div class="relative text-white px-4 mt-8 lg:pt-6 xl:px-20 xl:pt-10">
+                <p class="font-bold text-3xl sm:mt-8 sm:text-5xl xl:text-6xl xl:pr-52 xl:w-1/2">Web Development</p>
+                <p class="text-base pr-8 mt-4 sm:pt-4 sm:pr-2 lg:w-[45%] xl:pr-36 leading-relaxed">Unlock the potential of your ideas with our App Development services. We transform concepts into captivating apps by blending strategic vision with cutting-edge technology. From user-centric design to seamless multi-platform functionality, we craft apps that engage and impress. Our agile approach ensures swift development, while post-launch support guarantees lasting performance. Let us be your partner in turning aspirations into innovative, user-friendly, and impactful applications.</p>
                 <button class="hidden sm:block text-black bg-[#fff] px-4 py-1 rounded-md mt-8 font-[playfor-display]">View Details</button>
             </div>
         </div>
@@ -88,7 +88,7 @@ export default {
     </div>
     <!-- Slider controls -->
     <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none hidden md:block " data-carousel-prev>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60  group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
             <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
             </svg>
@@ -96,7 +96,7 @@ export default {
         </span>
     </button>
     <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none hidden md:block" data-carousel-next>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60  group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
             <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
             </svg>
@@ -108,21 +108,21 @@ export default {
 
 
 <!-- Second Section -->
-    <section class=" pt-12 bg-[#fafafa]  font-[assistant]">
-        <p class="font-bold text-4xl pr-10 leading-tight text-[#282828] px-4">Welcome to Microprixs</p>
-        <hr class="w-2/12 text-black h-0.5 bg-black mt-4 ml-4" >
+    <section class=" pt-12 bg-[#fafafa] font-[assistant] lg:pb-20">
+        <p class="font-bold text-4xl pr-10 leading-tight text-[#282828] px-4 min-[680px]:px-14 md:px-6 xl:pl-32">Welcome to Microprixs</p>
+        <hr class="w-2/12 sm:w-1/12 text-black h-0.5 bg-black mt-4 sm:mt-6 ml-4 min-[680px]:px-14 md:px-6 xl:ml-32 xl:w-8" >
 
-        <div class="pt-12">
+        <div class="pt-12 grid md:grid-cols-2 lg:grid-cols-3">
             <!-- inner 1st div -->
-            <div class="px-4">
+            <div class="px-4 min-[680px]:px-14  md:px-5 xl:pl-32">
                 <img class="object-cover py-4" src="https://www.microprixs.com/wp-content/uploads/2023/08/about_us.jpg"/>
                 <p class="font-bold text-3xl  text-[#282828] py-4">About Company</p>
-                <p class="text-[16px]"><strong>Microprixs</strong> is a global IT services company providing software development services to enterprises worldwide. We are technology brains striving to be growth enablers for our customers. We're fusing real-world expertise with innovation to make businesses work better.We help identify the best technical solutions to meet your software development and budgetary needs. Regarded as experts in the various industries we provide our services, Microprixs has designed, developed, and deployed a wide variety of technological software solutions for niche markets. When it comes to Web-services, we are best.</p>
-                <button class="mt-4 px-6 py-2 bg-[#33cf9f] text-white font-medium rounded-sm ">View Details</button>
+                <p class="text-[16px] lg:leading-relaxed"><strong>Microprixs</strong> is a global IT services company providing software development services to enterprises worldwide. We are technology brains striving to be growth enablers for our customers. We're fusing real-world expertise with innovation to make businesses work better.We help identify the best technical solutions to meet your software development and budgetary needs. Regarded as experts in the various industries we provide our services, Microprixs has designed, developed, and deployed a wide variety of technological software solutions for niche markets. When it comes to Web-services, we are best.</p>
+                <button class="mt-4 px-6 py-2 bg-[#33cf9f] text-white font-medium rounded-md ">View Details</button>
             </div>
 
             <!-- inner 2nd div -->
-            <div class="pt-6 px-4 pb-20">
+            <div class="pt-6 lg:pt-4 px-4 pb-20 min-[680px]:px-14 md:px-6 xl:px-10 xl:pr-24">
                 <div class="flex">
                     <div class="ce">
                     <p class="flex items-center justify-center bg-white h-12 w-12 text-center text-xl font-semibold shadow-[0_0_10px_-5px_rgb(146,146,146)] rounded-full my-2 ">1</p>
@@ -162,12 +162,12 @@ export default {
             </div>
 
             <!-- inner 3rd div -->
-        <div class="py-14 px-0 pb-52" style="background-image: url('https://www.microprixs.com/wp-content/themes/biz-pro/blocks/home_section2/assets/img/team-column-bg.jpg');">
+        <div class="py-14 px-0 pb-52 xl:pb-0 xl:pt-14 xl:py-0 sm:px-20 md:px-36 md:col-span-2 lg:col-span-1 lg:px-0 lg:-mt-28 " style="background-image: url('https://www.microprixs.com/wp-content/themes/biz-pro/blocks/home_section2/assets/img/team-column-bg.jpg');">
             <div id="default-carousel" class="relative w-full" data-carousel="slide">
             <!-- Carousel wrapper -->
-            <div class="relative h-[30rem] overflow-hidden ">
+            <div class="relative h-[30rem]  overflow-hidden ">
         <!-- Item 1 -->
-        <div class="duration-700 ease-in-out flex flex-col justify-center items-center text-center" data-carousel-item>
+        <div class="duration-700 ease-in-out flex flex-col justify-center items-center text-center xl:pt-20 xl:px-10" data-carousel-item>
             <img src="https://www.microprixs.com/wp-content/uploads/2023/08/Airson-6.png" class=" w-44 h-44 border-8 border-[#886af8]  object-cover rounded-full" alt="...">
             <div class="text-white px-4 mt-5">
                 <p class="font-bold uppercase text-xl">Airson Telecom Solution</p>
@@ -177,7 +177,7 @@ export default {
             </div>
         </div>
         <!-- Item 2 -->
-        <div class="hidden duration-700 ease-in-out flex flex-col justify-center items-center text-center" data-carousel-item>
+        <div class="hidden duration-700 ease-in-out flex flex-col justify-center items-center text-center xl:pt-20 xl:px-10" data-carousel-item>
             <img src="https://www.microprixs.com/wp-content/uploads/2023/08/pixvix-1-2.png" class="w-44 h-44  border-8 border-[#ccc] object-cover rounded-full" alt="...">
             <div class="text-white px-4 mt-5">
                 <p class="font-bold  text-xl">Pixvix</p>
@@ -187,23 +187,23 @@ export default {
             </div>
         </div>
         <!-- Item 3 -->
-        <div class="hidden duration-700 ease-in-out flex flex-col justify-center items-center text-center" data-carousel-item>
+        <div class="hidden duration-700 ease-in-out flex flex-col justify-center items-center text-center xl:pt-20 xl:px-10" data-carousel-item>
             <img src="https://www.microprixs.com/wp-content/uploads/2023/08/ezeerides-1-2.png" class="w-44 h-44  border-8 border-[#f58231] object-cover rounded-full" alt="...">
             <div class="text-white px-4 mt-5">
                 <p class="font-bold uppercase text-xl">Ezee rides</p>
                 <p class="text-[#738ab0] pt-1">- Founder, Vishal Singh</p>
                 <p class="text-base  mt-4 italic pb-6 pt-4">“When it comes to Microprixs, there is nothing else to see. It was really great working with you guys. You’ve matched up to our expectations. Will definitely work with you again!”</p>
-                <!-- <span class="">Great work guys!”</span> -->
+                <span class="">Great work guys!”</span>
             </div>
         </div>
         <!-- Item 4 -->
-        <div class="hidden duration-700 ease-in-out flex flex-col justify-center items-center text-center" data-carousel-item>
+        <div class="hidden duration-700 ease-in-out flex flex-col justify-center items-center text-center xl:pt-20 xl:px-10" data-carousel-item>
             <img src="https://www.microprixs.com/wp-content/uploads/2023/08/vayadubai12-1.jpeg" class="w-44 h-44 border-8 border-[#fff]  object-cover rounded-full" alt="...">
             <div class="text-white px-4 mt-5">
                 <p class="font-bold text-xl">Next Trip Travel</p>
                 <p class="text-[#738ab0] pt-1">- CEO, Mukesh Choudhary</p>
                 <p class="text-base  mt-4 italic pb-6 pt-4">“According to me, my project was difficult, yet Microprixs has by far delivered and complete it in an efficient way. In one word, you’ve surpassed our expectations Microprixs. Thanks!”</p>
-                <!-- <span class="">Great work guys!”</span> -->
+                <span class="">Great work guys!”</span>
             </div>
         </div>
     </div>
@@ -216,7 +216,7 @@ export default {
         <!-- <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button> -->
     </div>
     <!-- Slider controls -->
-    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none hidden sm:block " data-carousel-prev>
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none hidden " data-carousel-prev>
         <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
             <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
@@ -224,7 +224,7 @@ export default {
             <span class="sr-only">Previous</span>
         </span>
     </button>
-    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none hidden sm:block" data-carousel-next>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none hidden " data-carousel-next>
         <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
             <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
@@ -240,10 +240,11 @@ export default {
 
 <!-- third Section -->
     <section class="py-10 pb-32 font-[assistant] bg-cover bg-center" style="background-image: url('https://www.microprixs.com/wp-content/uploads/2023/08/background-rotated.jpg');">
-        <div class="w-full flex justify-center " >
-        <hr class="w-3/12 text-black h-1 bg-black ml-4">
+        <div class="w-full flex flex-col justify-center items-center" >
+            <span class="text-center text-4xl py-4 font-bold justify-center items-center">Services We Provide</span>
+            <hr class="w-3/12 text-black h-1 bg-black ml-4 my-4 md:w-1/12 xl:w-12">
     </div>
-        <div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:mx-24  min-[1400px]:mx-44">
             <!-- inner 1st div -->
             <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-5 mt-8 rounded-lg">
                 <div class="flex justify-center ">
@@ -304,55 +305,57 @@ export default {
 
     <!-- Fourth Section -->
     <section class="bg-[#1f365c] font-[assistant] pb-12" >
-        <div class="py-12">
+        <div class="py-12 sm:mx-14 grid md:grid-cols-2 xl:grid-cols-4 lg:mx-32 xl:mx-10 min-[1400px]:mx-40 xl:py-20">
             <!-- inner div -->
-            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-5  rounded-lg">
+            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-5 min-[1400px]:mx-3 rounded-lg">
                 <span><i class="fa fa-industry text-5xl border-[6px] p-3 rounded-full border-[#282828] text-[#282828]"></i></span>
                 <p class="py-6 text-xl font-bold">INDUSTRY SPECIFIC</p>
-                <p class="text-[#3e3d3c] leading-relaxed">Experience-Microprixs works across a myriad of industry segments. Our teams are organized in virtual divisions that have the domain expertise and know-how within each industry to offer exceptional technology solutions.</p>
+                <p class="text-[#3e3d3c] leading-relaxed xl:px-2">Experience-Microprixs works across a myriad of industry segments. Our teams are organized in virtual divisions that have the domain expertise and know-how within each industry to offer exceptional technology solutions.</p>
             </div>
-            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-5  rounded-lg mt-8">
+            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-5 min-[1400px]:mx-3 rounded-lg mt-8 md:mt-0">
                 <span><i class="fa fa-life-bouy text-5xl border-[6px] p-3 rounded-full border-[#282828] text-[#282828]"></i></span>
                 <p class="py-6 text-xl font-bold">SCALABILITY AND SUPPRT</p>
-                <p class="text-[#3e3d3c] leading-relaxed">Microprixs collaborates closely with you to align with your software objectives. Our expertise guides us in identifying the most promising avenues for investment, ensuring your resources are wisely allocated. </p>
+                <p class="text-[#3e3d3c] leading-relaxed xl:px-4">Microprixs collaborates closely with you to align with your software objectives. Our expertise guides us in identifying the most promising avenues for investment, ensuring your resources are wisely allocated. </p>
             </div>
-            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-5  rounded-lg mt-8">
+            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-5 min-[1400px]:mx-3 rounded-lg mt-8 xl:mt-0 xl:pt-14">
                 <span><i class="fa fa-plug text-5xl border-[6px] p-3 rounded-full border-[#282828] text-[#282828]"></i></span>
                 <p class="py-6 text-xl font-bold">YOU OWN THE SOURCE CODE AND IP</p>
-                <p class="text-[#3e3d3c] leading-relaxed">Microprixs fully customizable software solutions require no licensing fees at project completion. Under our agreement,you will own the source code and intellectual property of your proprietary software.</p>
+                <p class="text-[#3e3d3c] leading-relaxed xl:px-1">Microprixs fully customizable software solutions require no licensing fees at project completion. Under our agreement,you will own the source code and intellectual property of your proprietary software.</p>
             </div>
-            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-5  rounded-lg mt-8">
+            <div class=" py-8 flex justify-center text-center flex-col bg-[#fff] px-3 mx-5 min-[1400px]:mx-3 rounded-lg mt-8 xl:mt-0 xl:pt-6">
                 <span><i class="fa fa-clock-o text-5xl border-[6px] py-3 px-4 rounded-full border-[#282828] text-[#282828]"></i></span>
                 <p class="py-6 text-xl font-bold">REAL-TIME COMMUNICATION AND COLLABORATION</p>
-                <p class="text-[#3e3d3c] leading-relaxed">Microprixs has always followed a “customer comes first” philosophy. Our governance is simple, flexible, and focused on providing end results to our clientele.</p>
+                <p class="text-[#3e3d3c] leading-relaxed xl:px-4">Microprixs has always followed a “customer comes first” philosophy. Our governance is simple, flexible, and focused on providing end results to our clientele.</p>
             </div>
         </div>
     </section>
 
     <!-- fifth section -->
     <section class="font-[assistant] bg-fixed bg-white bg-cover bg-top pb-6" style="background-image: url('https://www.microprixs.com/wp-content/uploads/2023/08/new-1.jpg'); background-position:bottom" >
-        <div class="px-4 py-10 text-white flex flex-col justify-center">
+        <div class="px-4 py-10 text-white flex flex-col justify-center sm:mx-28 md:mx-36 items-center">
             <button class="bg-[#ffffff00] leading-normal py-2 text-2xl px-6 border-2 rounded-full my-8">Hurry up! Look Into Your Project Today</button>
-            <p class="text-4xl font-bold text-center mt-10">Free Consultation With Our Experts</p>
-            <div class="w-full flex justify-center mt-10" >
-            <hr class="w-3/12 text-black h-1 bg-black ml-4">
+            <p class="text-4xl font-bold text-center mt-10 xl:text-5xl">Free Consultation With Our Experts</p>
+            <div class="w-full flex justify-center mt-10 xl:mt-12" >
+            <hr class="w-3/12 sm:w-1/12 text-black h-1 bg-black ml-4 ">
             </div>
-            <button class="bg-[#33cf9f] text-[#fff] mt-8  py-4 text-xl rounded-full font-semibold">Consult Your Project Today</button>
+            <button class="bg-[#33cf9f] text-[#fff] sm:w-7/12 md:w-7/12 lg:w-5/12 xl:w-4/12 xl:mt-20 text-center mt-8 py-4 text-xl rounded-full font-semibold xl:text-2xl">Consult Your Project Today</button>
         </div>
     </section>
 
     <!-- sixth section -->
-    <section class="font-[assistant] px-4 bg-center bg-cover" style="background-image:url('https://www.microprixs.com/wp-content/uploads/2023/08/about-rotated.jpg')">
+    <section class="font-[assistant] px-4 bg-center bg-cover sm:px-16" style="background-image:url('https://www.microprixs.com/wp-content/uploads/2023/08/about-rotated.jpg')">
         <p class="pt-4 text-center font-bold text-4xl justify-center">Why Work With Us </p>
         <div class="w-full flex justify-center mt-8" >
             <hr class="w-2/12 text-black h-0.5 bg-black ml-4">
             </div>
-            <p class="text-2xl font-bold pt-8">Main Reasons To Choose Us</p>
+            <p class="text-2xl font-bold pt-8 md:px-20 lg:px-2 xl:pl-32">Main Reasons To Choose Us</p>
         <div>
         </div>
 
+        <div class="grid lg:grid-cols-2 md:px-20 md:pr-28 lg:px-2 xl:pl-32 ">
+
         <!-- inner 1st div -->
-        <div>
+        <div class="xl:pr-20">
             <div class="flex pt-8">
                     <div class="ce">
                     <p class="flex items-center justify-center bg-[#1f365c] text-white h-10 w-10 text-center text-xl font-semibold  rounded-full my-2 mt-4">1</p>
@@ -391,55 +394,55 @@ export default {
         </div>
 
         <!-- inner 2nd div -->
-        <div class="py-16 flex flex-col mt-10 block">
+        <div class="py-16 flex flex-col mt-10 lg:mt-0 lg:ml-4 lg:py-10 lg:pb-32 block ">
             
-            <div class="flex w-full justify-center pt-2 ">
+            <div class="flex w-full justify-center xl:justify-start xl:ml-10 pt-2 ">
            
                 
-            <div class="bg-white rounded-full text-center h-[300px] w-[300px] min-[500px]:w-[400px] min-[500px]:h-[400px] min-[500px]:pt-20 pt-10 relative">
-                <div class="bg-[#1f365c] p-2 rounded-full absolute left-28 -top-12" v-on:click="toggleTabs(1)">
-                    <img class="border-4 border-white rounded-full w-16 h-16 min-[500px]:h-20  min-[500px]:w-20" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-47373319reg8-170667a-1.png"/>
+            <div class="bg-white rounded-full text-center h-[300px] w-[300px] sm:w-[400px] sm:h-[400px] sm:pt-20 pt-10 md:w-[450px] md:h-[450px] relative">
+                <div class="bg-[#1f365c] p-2 rounded-full absolute left-28 -top-12 sm:left-40 md:left-44" v-on:click="toggleTabs(1)">
+                    <img class="border-4 border-white rounded-full w-16 h-16 sm:h-20 sm:w-20" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-47373319reg8-170667a-1.png"/>
                 </div>
-                <div class="bg-[#1f365c] p-2 rounded-full absolute -right-6 top-12"  v-on:click="toggleTabs(2)">
-                    <img class="border-4 border-white rounded-full w-16 h-16 min-[500px]:h-20  min-[500px]:w-20" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-4dsbgdrgh73rtfjr73319reg8-170667a.png"/>
+                <div class="bg-[#1f365c] p-2 rounded-full absolute -right-6 top-12 md:-right-2 md:top-14"  v-on:click="toggleTabs(2)">
+                    <img class="border-4 border-white rounded-full w-16 h-16 sm:h-20  sm:w-20" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-4dsbgdrgh73rtfjr73319reg8-170667a.png"/>
                 </div>
-                <div class="bg-[#1f365c] p-2 rounded-full absolute right-0 bottom-1 min-[500px]:bottom-4 right-3"  v-on:click="toggleTabs(3)">
-                    <img class="border-4 border-white rounded-full w-16 h-16 min-[500px]:h-20  min-[500px]:w-20" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-4dsbg73rtfjr73319reg8-170667a.png"/>
+                <div class="bg-[#1f365c] p-2 rounded-full absolute right-0 bottom-1 sm:bottom-4 right-3 md:bottom-7 md:right-6"  v-on:click="toggleTabs(3)">
+                    <img class="border-4 border-white rounded-full w-16 h-16 sm:h-20  sm:w-20" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-4dsbg73rtfjr73319reg8-170667a.png"/>
                 </div>
-                <div class="bg-[#1f365c] p-2 rounded-full absolute  bottom-1 min-[500px]:bottom-4 "  v-on:click="toggleTabs(4)">
-                    <img class="border-4 border-white rounded-full w-16 h-16 min-[500px]:h-20  min-[500px]:w-20" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-4dsbg7373319reg8-170667a.png"/>
+                <div class="bg-[#1f365c] p-2 rounded-full absolute  bottom-1 sm:bottom-4 md:bottom-7 md:left-4"  v-on:click="toggleTabs(4)">
+                    <img class="border-4 border-white rounded-full w-16 h-16 sm:h-20  sm:w-20" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-4dsbg7373319reg8-170667a.png"/>
                 </div>
-                <div class="bg-[#1f365c] p-2 rounded-full absolute -left-6 top-12" v-on:click="toggleTabs(5)">
-                    <img class="border-4 border-white rounded-full w-16 h-16 min-[500px]:h-20  min-[500px]:w-20" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-473733198-170667a.png"/>
+                <div class="bg-[#1f365c] p-2 rounded-full absolute -left-6 top-12 md:-left-2 md:top-14" v-on:click="toggleTabs(5)">
+                    <img class="border-4 border-white rounded-full w-16 h-16 sm:h-20  sm:w-20" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-473733198-170667a.png"/>
                 </div>
 
 
             <div class="1st div" v-bind:class="{'hidden': openTab !== 1, 'block': openTab === 1}">
-                <p class="font-['playfor-display'] pb-4 text-xl">Industry Experience</p>
-                <p class="px-8 text-sm text-[#4c4c4c] min-[500px]:px-16 min-[500px]:mt-4">We have gathered over 6 years experience in web-development, Crafting excellent applications and building cloud softwares as a solution.  We host enthusiastic coder and developers and many have over 10 years of experience in their field. </p>
-                <p class="mt-6 text-sm"><a class="uppercase text-[#1f365c]" >Learn More</a></p> 
+                <p class="font-['playfor-display'] pb-4 text-xl md:text-2xl xl:font-semibold">Industry Experience</p>
+                <p class="px-8 text-sm text-[#4c4c4c] sm:pt-4 sm:px-16 md:text-base md:px-20">We have gathered over 6 years experience in web-development, Crafting excellent applications and building cloud softwares as a solution.  We host enthusiastic coder and developers and many have over 10 years of experience in their field. </p>
+                <p class="mt-6 text-sm md:text-base"><a class="uppercase text-[#1f365c]" >Learn More</a></p> 
             </div>
             <div v-bind:class="{'hidden': openTab !== 2, 'block': openTab === 2}">
-                <p class="font-['playfor-display'] pb-4 text-xl">Personal Experience</p>
-                <p class="px-14 text-sm text-[#4c4c4c] min-[500px]:px-20 min-[500px]:mt-4">About 75 percent of our clients are occurring and their best satisfaction with our works is understood here. I hope you have the best experience in web-development with us in India</p>
-                <p class="mt-6 text-sm"><a class="uppercase text-[#1f365c]" >Learn More</a></p>  
+                <p class="font-['playfor-display'] pb-4 text-xl md:text-2xl xl:font-semibold ">Personal Experience</p>
+                <p class="px-14 text-sm text-[#4c4c4c] sm:pt-4 sm:px-16 md:text-base md:px-20">About 75 percent of our clients are occurring and their best satisfaction with our works is understood here. I hope you have the best experience in web-development with us in India</p>
+                <p class="mt-6 text-sm md:text-base"><a class="uppercase text-[#1f365c]" >Learn More</a></p>  
             </div>
             <div  v-bind:class="{'hidden': openTab !== 3, 'block': openTab === 3}">
-                <p class="font-['playfor-display'] pb-4 text-xl">Expertise and Innovation</p>
-                <p class="px-10 text-sm text-[#4c4c4c] min-[500px]:px-20 min-[500px]:mt-4">We bring a team of seasoned professionals at the forefront of technological trends. Our innovative solutions are designed to give you a competitive edge in a rapidly evolving digital landscape.</p>
-                <p class="mt-6 text-sm"><a class="uppercase text-[#1f365c]" >Learn More</a></p>  
+                <p class="font-['playfor-display'] pb-4 text-xl md:text-2xl xl:font-semibold xl:px-32">Expertise and Innovation</p>
+                <p class="px-10 text-sm text-[#4c4c4c] sm:pt-4 sm:px-16 md:text-base md:px-20 xl:pt-0 xl:px-24">We bring a team of seasoned professionals at the forefront of technological trends. Our innovative solutions are designed to give you a competitive edge in a rapidly evolving digital landscape.</p>
+                <p class="mt-6 text-sm md:text-base"><a class="uppercase text-[#1f365c]" >Learn More</a></p>  
             </div>
             <div  v-bind:class="{'hidden': openTab !== 4, 'block': openTab === 4}">
-                <p class="font-['playfor-display'] pb-4 text-xl">Commitment to Security</p>
-                <p class="px-12 text-sm text-[#4c4c4c] min-[500px]:px-20 min-[500px]:mt-4"> Security is paramount in today's digital landscape. Our solutions are fortified with robust cybersecurity measures to safeguard your data and operations. </p>
-                <p class="mt-6 text-sm"><a class="uppercase text-[#1f365c]" >Learn More</a></p>  
+                <p class="font-['playfor-display'] pb-4 text-xl md:text-2xl xl:font-semibold ">Commitment to Security</p>
+                <p class="px-12 text-sm text-[#4c4c4c] sm:pt-4 sm:px-16 md:text-base md:px-20"> Security is paramount in today's digital landscape. Our solutions are fortified with robust cybersecurity measures to safeguard your data and operations. </p>
+                <p class="mt-6 text-sm md:text-base"><a class="uppercase text-[#1f365c]" >Learn More</a></p>  
             </div>
             <div  v-bind:class="{'hidden': openTab !== 5, 'block': openTab === 5}">
-                <p class="font-['playfor-display'] pb-4 text-xl">Quality Assurance</p>
-                <p class="px-14 text-sm text-[#4c4c4c] min-[500px]:px-20 min-[500px]:mt-4">We have a rigorous quality assurance process in place to guarantee that our solutions are of the highest standards, providing you with reliable and efficient systems.</p>
-                <p class="mt-6 text-sm"><a class="uppercase text-[#1f365c]" >Learn More</a></p>  
+                <p class="font-['playfor-display'] pb-4 text-xl md:text-2xl xl:font-semibold ">Quality Assurance</p>
+                <p class="px-14 text-sm text-[#4c4c4c] sm:pt-4 sm:px-16 md:text-base md:px-20">We have a rigorous quality assurance process in place to guarantee that our solutions are of the highest standards, providing you with reliable and efficient systems.</p>
+                <p class="mt-6 text-sm md:text-base"><a class="uppercase text-[#1f365c]" >Learn More</a></p>  
             </div>
-             
+        </div> 
         </div>
     </div>
 </div>

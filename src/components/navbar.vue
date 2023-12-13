@@ -6,7 +6,7 @@
           <div class="flex flex-shrink-0 mt-2">
               <img class="h-14 w-auto" src="https://www.microprixs.com/wp-content/uploads/2021/01/Picture1.png" alt="Your Company">
             </div>
-          <div class="absolute right-0 flex items-center sm:hidden hover:bg-white">
+          <div class="absolute right-0 flex items-center md:hidden hover:bg-white">
             <!-- Mobile menu button-->
             <button type="button" class="relative inline-flex  rounded-md p-2 text-gray-400 " aria-expanded="false"  v-on:click="toggleNavbar1()"  data-drawer-target="drawer-navigation"  data-drawer-show="drawer-navigation" aria-controls="drawer-navigation">
               <!-- <span class="sr-only">Open main menu</span> -->
@@ -22,7 +22,7 @@
           </div>
           <div class="flex flex-1 items-end justify-end sm:items-stretch sm:justify-start">
             
-            <div class="hidden sm:ml-6 sm:block">
+            <div class="hidden sm:ml-6 md:block">
               <div class="flex space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
               <router-link to="/" class="text-gray-300 hover:bg-gray-700 rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Dashboard</router-link>
@@ -39,7 +39,7 @@
 
 <!-- drawer component -->
 <div id="drawer-navigation" class="fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-white w-64 dark:bg-gray-800" tabindex="-1" aria-labelledby="drawer-navigation-label">
-    <h5 id="drawer-navigation-label" class="text-base font-semibold text-gray-500 uppercase dark:text-gray-400">Menu</h5>
+    <h5 id="drawer-navigation-label" class="text-base font-semibold text-gray-500 uppercase dark:text-gray-400"></h5>
     <button type="button" data-drawer-hide="drawer-navigation" aria-controls="drawer-navigation" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 absolute top-2.5 end-2.5 inline-flex items-center justify-center dark:hover:bg-gray-600 dark:hover:text-white" >
       <svg class="w-3 h-3 hover:text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
