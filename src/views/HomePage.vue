@@ -400,7 +400,7 @@ export default {
                 <div class="bg-[#1f365c] p-2 rounded-full absolute left-28 -top-12" v-on:click="toggleTabs(1)">
                     <img class="border-4 border-white rounded-full w-16 h-16 min-[500px]:h-20  min-[500px]:w-20" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-47373319reg8-170667a-1.png"/>
                 </div>
-                <div class="bg-[#1f365c] p-2 rounded-full absolute -right-6"  v-on:click="toggleTabs(2)">
+                <div class="bg-[#1f365c] p-2 rounded-full absolute -right-6 top-12"  v-on:click="toggleTabs(2)">
                     <img class="border-4 border-white rounded-full w-16 h-16 min-[500px]:h-20  min-[500px]:w-20" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-4dsbgdrgh73rtfjr73319reg8-170667a.png"/>
                 </div>
                 <div class="bg-[#1f365c] p-2 rounded-full absolute right-0 bottom-1 min-[500px]:bottom-4 right-3"  v-on:click="toggleTabs(3)">
@@ -409,7 +409,7 @@ export default {
                 <div class="bg-[#1f365c] p-2 rounded-full absolute  bottom-1 min-[500px]:bottom-4 "  v-on:click="toggleTabs(4)">
                     <img class="border-4 border-white rounded-full w-16 h-16 min-[500px]:h-20  min-[500px]:w-20" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-4dsbg7373319reg8-170667a.png"/>
                 </div>
-                <div class="bg-[#1f365c] p-2 rounded-full absolute -left-6 " v-on:click="toggleTabs(5)">
+                <div class="bg-[#1f365c] p-2 rounded-full absolute -left-6 top-12" v-on:click="toggleTabs(5)">
                     <img class="border-4 border-white rounded-full w-16 h-16 min-[500px]:h-20  min-[500px]:w-20" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-473733198-170667a.png"/>
                 </div>
 
