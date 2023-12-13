@@ -4,6 +4,21 @@ import Footer from "../components/footer.vue"
 
 </script>
 
+<script>
+export default {
+  name: "pink-tabs",
+  data() {
+    return {
+      openTab: 1
+    }
+  },
+  methods: {
+    toggleTabs: function(tabNumber){
+      this.openTab = tabNumber
+    }
+  }
+}
+</script>
 
 <template class="font-[assistant]">
    <!-- Navbar -->
@@ -15,38 +30,47 @@ import Footer from "../components/footer.vue"
     <section class="font-[assistant]">
 <div id="default-carousel" class="relative w-full" data-carousel="slide">
     <!-- Carousel wrapper -->
-    <div class="relative h-80 overflow-hidden md:h-96">
+    <div class="relative  overflow-hidden h-96">
          <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://www.microprixs.com/wp-content/uploads/2021/01/micro1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover h-80 " alt="...">
-            <div class="relative text-white px-4 mt-8">
-                <p class="font-bold text-3xl">Microprixs Solution</p>
-                <p class="text-sm pr-8 mt-4">Microprixs is more than an IT company, we're dedicated to revolutionizing the way businesses interact with their target audience through cutting-edge web development solutions. we lay the foundation for success by meticulously crafting strategies that align with your business goals and objectives. Our team delves into the intricacies of your business, ensuring that our solutions are tailored to address your specific needs.</p>
+            <img src="/img/icons/1st_slide.png" class="sm:hidden absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover h-96 sm:h-96" alt="...">
+            <img src="https://www.microprixs.com/wp-content/uploads/2021/01/micro1.png" class="hidden absolute sm:block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover h-96 sm:h-96" alt="...">
+           <div class="absolute home-slider-overlay bg-[#1f365cd9] left-0 top-0 h-full min-[550px]:w-[47%] "></div>
+            <div class="relative text-white px-4 mt-8  md:w-[45%]">
+                <p class="font-bold text-3xl sm:mt-8">Microprixs Solution</p>
+                <p class="text-base pr-8 mt-4  sm:pr-2 sm:w-[45%]">Microprixs is more than an IT company, we're dedicated to revolutionizing the way businesses interact with their target audience through cutting-edge web development solutions. we lay the foundation for success by meticulously crafting strategies that align with your business goals and objectives. Our team delves into the intricacies of your business, ensuring that our solutions are tailored to address your specific needs.</p>
+                <button class="hidden sm:block text-black bg-[#fff] px-4 py-1 rounded-md mt-8 font-[playfor-display]">View Details</button>
             </div>
         </div>
         <!-- Item 2 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://www.microprixs.com/wp-content/uploads/2021/01/business_log.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover h-80  " alt="...">
+            <img src="https://www.microprixs.com/wp-content/uploads/2021/01/business_log.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover h-96  sm:h-96" alt="...">
+            <div class="absolute home-slider-overlay bg-[#1f365cd9] left-0 top-0 h-full min-[550px]:w-[50%]"></div>
             <div class="relative text-white px-4 mt-8">
-                <p class="font-bold text-3xl">Business Consulting</p>
-                <p class="text-sm pr-8 mt-4">Elevate your company's success with our expert Business Consulting services. We specialize in aligning technological prowess with strategic vision. Our seasoned consultants craft tailored solutions that drive growth and efficiency. From strategic roadmaps to operational excellence, we help you navigate challenges, stand out in the competitive landscape, and adapt to industry trends. With a focus on measurable results, we're your partner in achieving sustainable success.</p>
+                <p class="font-bold text-3xl sm:mt-8">Business Consulting</p>
+                <p class="text-base pr-8 mt-4  sm:pr-2 sm:w-[45%]">Elevate your company's success with our expert Business Consulting services. We specialize in aligning technological prowess with strategic vision. Our seasoned consultants craft tailored solutions that drive growth and efficiency. From strategic roadmaps to operational excellence, we help you navigate challenges, stand out in the competitive landscape, and adapt to industry trends. With a focus on measurable results, we're your partner in achieving sustainable success.</p>
+                <button class="hidden sm:block text-black bg-[#fff] px-4 py-1 rounded-md mt-8 font-[playfor-display]">View Details</button>
             </div>
         </div>
         <!-- Item 3 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://www.microprixs.com/wp-content/uploads/2021/01/app-d2.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover h-80 " alt="...">
+            <img src="https://www.microprixs.com/wp-content/uploads/2021/01/app-d2.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover h-96 sm:h-96" alt="...">
+            <div class="absolute home-slider-overlay bg-[#1f365cd9] left-0 top-0 h-full min-[550px]:w-[50%] "></div>
             <div class="relative text-white px-4 mt-8">
-                <p class="font-bold text-3xl">App Development</p>
-                <p class="text-sm pr-8 mt-4">Experience the pinnacle of digital innovation through our Web Development services. As a leading IT company, we specialize in crafting dynamic and responsive websites that reflect your brand's uniqueness. Our expert developers blend creativity with coding excellence, ensuring seamless functionality and captivating design. From e-commerce platforms to interactive portfolios, we tailor solutions that resonate with your target audience.</p>
+                <p class="font-bold text-3xl sm:mt-8">App Development</p>
+                <p class="text-base pr-8 mt-4  sm:pr-2 sm:w-[45%]">Experience the pinnacle of digital innovation through our Web Development services. As a leading IT company, we specialize in crafting dynamic and responsive websites that reflect your brand's uniqueness. Our expert developers blend creativity with coding excellence, ensuring seamless functionality and captivating design. From e-commerce platforms to interactive portfolios, we tailor solutions that resonate with your target audience.</p>
+                <button class="hidden sm:block text-black bg-[#fff] px-4 py-1 rounded-md mt-8 font-[playfor-display]">View Details</button>
             </div>
         </div>
         
         <!-- Item 4 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://www.microprixs.com/wp-content/uploads/2021/01/web.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover h-80 " alt="...">
+            <img src="https://www.microprixs.com/wp-content/uploads/2021/01/web.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover h-96 sm:h-96" alt="...">
+            <div class="absolute home-slider-overlay bg-[#1f365cd9] left-0 top-0 h-full min-[550px]:w-[50%] "></div>
             <div class="relative text-white px-4 mt-8">
-                <p class="font-bold text-3xl">Web Development</p>
-                <p class="text-sm pr-8 mt-4">Unlock the potential of your ideas with our App Development services. We transform concepts into captivating apps by blending strategic vision with cutting-edge technology. From user-centric design to seamless multi-platform functionality, we craft apps that engage and impress. Our agile approach ensures swift development, while post-launch support guarantees lasting performance. Let us be your partner in turning aspirations into innovative, user-friendly, and impactful applications.</p>
+                <p class="font-bold text-3xl sm:mt-8">Web Development</p>
+                <p class="text-base pr-8 mt-4  sm:pr-2 sm:w-[45%]">Unlock the potential of your ideas with our App Development services. We transform concepts into captivating apps by blending strategic vision with cutting-edge technology. From user-centric design to seamless multi-platform functionality, we craft apps that engage and impress. Our agile approach ensures swift development, while post-launch support guarantees lasting performance. Let us be your partner in turning aspirations into innovative, user-friendly, and impactful applications.</p>
+                <button class="hidden sm:block text-black bg-[#fff] px-4 py-1 rounded-md mt-8 font-[playfor-display]">View Details</button>
             </div>
         </div>
         <!-- Item 5 -->
@@ -63,7 +87,7 @@ import Footer from "../components/footer.vue"
         <!-- <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button> -->
     </div>
     <!-- Slider controls -->
-    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none hidden sm:block " data-carousel-prev>
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none hidden md:block " data-carousel-prev>
         <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
             <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
@@ -71,7 +95,7 @@ import Footer from "../components/footer.vue"
             <span class="sr-only">Previous</span>
         </span>
     </button>
-    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none hidden sm:block" data-carousel-next>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none hidden md:block" data-carousel-next>
         <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
             <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
@@ -80,7 +104,7 @@ import Footer from "../components/footer.vue"
         </span>
     </button>
 </div>
-</section>
+    </section>
 
 
 <!-- Second Section -->
@@ -368,31 +392,57 @@ import Footer from "../components/footer.vue"
 
         <!-- inner 2nd div -->
         <div class="py-16 flex flex-col mt-10 block">
-            <div class=" flex justify-center items-center">
-                <div class="bg-[#1f365c] w-fit p-2 rounded-full absolute">
-                    <img class="border-4 border-white rounded-full w-16 h-16" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-47373319reg8-170667a-1.png"/>
-                </div>
-            </div>
-                <div class="bg-[#1f365c] w-fit p-2 rounded-full absolute left-6 mt-14">
-                    <img class="border-4 border-white rounded-full w-16 h-16" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-473733198-170667a.png"/>
-                </div>
-                <div class="bg-[#1f365c] w-fit p-2 rounded-full absolute right-6 mt-14">
-                    <img class="border-4 border-white rounded-full w-16 h-16" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-4dsbgdrgh73rtfjr73319reg8-170667a.png"/>
-                </div>
-                <div class="bg-[#1f365c] w-fit p-2 rounded-full absolute left-10 mt-52">
-                    <img class="border-4 border-white rounded-full w-16 h-16" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-4dsbg7373319reg8-170667a.png"/>
-                </div>
-                <div class="bg-[#1f365c] w-fit p-2 rounded-full absolute right-10 mt-52">
-                    <img class="border-4 border-white rounded-full w-16 h-16" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-4dsbg73rtfjr73319reg8-170667a.png"/>
-                </div>
+            
             <div class="flex w-full justify-center pt-2 ">
-            <div class="bg-white rounded-full text-center h-[300px] w-[300px] pt-10">
-                <p class="font-['playfor-display'] pb-4 text-lg">Industry Experience</p>
-                <p class="px-8 text-sm text-[#4c4c4c]">We have gathered over 6 years experience in web-development, Crafting excellent applications and building cloud softwares as a solution.  We host enthusiastic coder and developers and many have over 10 years of experience in their field. </p>
+           
+                
+            <div class="bg-white rounded-full text-center h-[300px] w-[300px] min-[500px]:w-[400px] min-[500px]:h-[400px] min-[500px]:pt-20  pt-14 relative">
+                <div class="bg-[#1f365c] p-2 rounded-full absolute top-0 left-[40%] mt-[-45px]" v-on:click="toggleTabs(1)">
+                    <img class="border-4 border-white rounded-full w-16 h-16 min-[500px]:h-20  min-[500px]:w-20" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-47373319reg8-170667a-1.png"/>
+                </div>
+                <div class="bg-[#1f365c] p-2 rounded-full absolute -right-6"  v-on:click="toggleTabs(2)">
+                    <img class="border-4 border-white rounded-full w-16 h-16 min-[500px]:h-20  min-[500px]:w-20" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-4dsbgdrgh73rtfjr73319reg8-170667a.png"/>
+                </div>
+                <div class="bg-[#1f365c] p-2 rounded-full absolute right-0 bottom-1 min-[500px]:bottom-4 right-3"  v-on:click="toggleTabs(3)">
+                    <img class="border-4 border-white rounded-full w-16 h-16 min-[500px]:h-20  min-[500px]:w-20" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-4dsbg73rtfjr73319reg8-170667a.png"/>
+                </div>
+                <div class="bg-[#1f365c] p-2 rounded-full absolute  bottom-1 min-[500px]:bottom-4 "  v-on:click="toggleTabs(4)">
+                    <img class="border-4 border-white rounded-full w-16 h-16 min-[500px]:h-20  min-[500px]:w-20" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-4dsbg7373319reg8-170667a.png"/>
+                </div>
+                <div class="bg-[#1f365c] p-2 rounded-full absolute -left-6 " v-on:click="toggleTabs(5)">
+                    <img class="border-4 border-white rounded-full w-16 h-16 min-[500px]:h-20  min-[500px]:w-20" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-473733198-170667a.png"/>
+                </div>
+
+
+            <div class="1st div" v-bind:class="{'hidden': openTab !== 1, 'block': openTab === 1}">
+                <p class="font-['playfor-display'] pb-4 text-xl">Industry Experience</p>
+                <p class="px-8 text-sm text-[#4c4c4c] min-[500px]:px-16 mt-4">We have gathered over 6 years experience in web-development, Crafting excellent applications and building cloud softwares as a solution.  We host enthusiastic coder and developers and many have over 10 years of experience in their field. </p>
+                <p class="mt-6 text-sm"><a class="uppercase text-[#1f365c]" >Learn More</a></p> 
+            </div>
+            <div v-bind:class="{'hidden': openTab !== 2, 'block': openTab === 2}">
+                <p class="font-['playfor-display'] pb-4 text-xl">Personal Experience</p>
+                <p class="px-14 text-sm text-[#4c4c4c] min-[500px]:px-20 mt-4">About 75 percent of our clients are occurring and their best satisfaction with our works is understood here. I hope you have the best experience in web-development with us in India</p>
                 <p class="mt-6 text-sm"><a class="uppercase text-[#1f365c]" >Learn More</a></p>  
             </div>
+            <div  v-bind:class="{'hidden': openTab !== 3, 'block': openTab === 3}">
+                <p class="font-['playfor-display'] pb-4 text-xl">Expertise and Innovation</p>
+                <p class="px-10 text-sm text-[#4c4c4c] min-[500px]:px-20 mt-4">We bring a team of seasoned professionals at the forefront of technological trends. Our innovative solutions are designed to give you a competitive edge in a rapidly evolving digital landscape.</p>
+                <p class="mt-6 text-sm"><a class="uppercase text-[#1f365c]" >Learn More</a></p>  
+            </div>
+            <div  v-bind:class="{'hidden': openTab !== 4, 'block': openTab === 4}">
+                <p class="font-['playfor-display'] pb-4 text-xl">Commitment to Security</p>
+                <p class="px-12 text-sm text-[#4c4c4c] min-[500px]:px-20 mt-4"> Security is paramount in today's digital landscape. Our solutions are fortified with robust cybersecurity measures to safeguard your data and operations. </p>
+                <p class="mt-6 text-sm"><a class="uppercase text-[#1f365c]" >Learn More</a></p>  
+            </div>
+            <div  v-bind:class="{'hidden': openTab !== 5, 'block': openTab === 5}">
+                <p class="font-['playfor-display'] pb-4 text-xl">Quality Assurance</p>
+                <p class="px-10 text-sm text-[#4c4c4c] min-[500px]:px-20 mt-4">We have a rigorous quality assurance process in place to guarantee that our solutions are of the highest standards, providing you with reliable and efficient systems.</p>
+                <p class="mt-6 text-sm"><a class="uppercase text-[#1f365c]" >Learn More</a></p>  
+            </div>
+             
         </div>
-        </div>
+    </div>
+</div>
     </section>
 
     <section class=" bg-[#f3f3f3d6]">

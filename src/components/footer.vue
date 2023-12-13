@@ -112,4 +112,5 @@
             <p>Replacement or Shipping policy.</p>
         </div>
     </section>
+
 </template>
