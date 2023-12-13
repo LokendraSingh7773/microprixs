@@ -397,7 +397,7 @@ export default {
            
                 
             <div class="bg-white rounded-full text-center h-[300px] w-[300px] min-[500px]:w-[400px] min-[500px]:h-[400px] min-[500px]:pt-20 pt-10 relative">
-                <div class="bg-[#1f365c] p-2 rounded-full absolute top-0 left-[40%] mt-[-45px]" v-on:click="toggleTabs(1)">
+                <div class="bg-[#1f365c] p-2 rounded-full absolute left-28 -top-12" v-on:click="toggleTabs(1)">
                     <img class="border-4 border-white rounded-full w-16 h-16 min-[500px]:h-20  min-[500px]:w-20" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-47373319reg8-170667a-1.png"/>
                 </div>
                 <div class="bg-[#1f365c] p-2 rounded-full absolute -right-6"  v-on:click="toggleTabs(2)">
@@ -436,7 +436,7 @@ export default {
             </div>
             <div  v-bind:class="{'hidden': openTab !== 5, 'block': openTab === 5}">
                 <p class="font-['playfor-display'] pb-4 text-xl">Quality Assurance</p>
-                <p class="px-10 text-sm text-[#4c4c4c] min-[500px]:px-20 min-[500px]:mt-4">We have a rigorous quality assurance process in place to guarantee that our solutions are of the highest standards, providing you with reliable and efficient systems.</p>
+                <p class="px-14 text-sm text-[#4c4c4c] min-[500px]:px-20 min-[500px]:mt-4">We have a rigorous quality assurance process in place to guarantee that our solutions are of the highest standards, providing you with reliable and efficient systems.</p>
                 <p class="mt-6 text-sm"><a class="uppercase text-[#1f365c]" >Learn More</a></p>  
             </div>
              
