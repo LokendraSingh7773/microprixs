@@ -396,7 +396,7 @@ export default {
             <div class="flex w-full justify-center pt-2 ">
            
                 
-            <div class="bg-white rounded-full text-center h-[300px] w-[300px] min-[500px]:w-[400px] min-[500px]:h-[400px] min-[500px]:pt-20  pt-14 relative">
+            <div class="bg-white rounded-full text-center h-[300px] w-[300px] min-[500px]:w-[400px] min-[500px]:h-[400px] min-[500px]:pt-20 pt-10 relative">
                 <div class="bg-[#1f365c] p-2 rounded-full absolute top-0 left-[40%] mt-[-45px]" v-on:click="toggleTabs(1)">
                     <img class="border-4 border-white rounded-full w-16 h-16 min-[500px]:h-20  min-[500px]:w-20" src="https://www.microprixs.com/wp-content/uploads/2023/04/istockphoto-47373319reg8-170667a-1.png"/>
                 </div>
@@ -416,27 +416,27 @@ export default {
 
             <div class="1st div" v-bind:class="{'hidden': openTab !== 1, 'block': openTab === 1}">
                 <p class="font-['playfor-display'] pb-4 text-xl">Industry Experience</p>
-                <p class="px-8 text-sm text-[#4c4c4c] min-[500px]:px-16 mt-4">We have gathered over 6 years experience in web-development, Crafting excellent applications and building cloud softwares as a solution.  We host enthusiastic coder and developers and many have over 10 years of experience in their field. </p>
+                <p class="px-8 text-sm text-[#4c4c4c] min-[500px]:px-16 min-[500px]:mt-4">We have gathered over 6 years experience in web-development, Crafting excellent applications and building cloud softwares as a solution.  We host enthusiastic coder and developers and many have over 10 years of experience in their field. </p>
                 <p class="mt-6 text-sm"><a class="uppercase text-[#1f365c]" >Learn More</a></p> 
             </div>
             <div v-bind:class="{'hidden': openTab !== 2, 'block': openTab === 2}">
                 <p class="font-['playfor-display'] pb-4 text-xl">Personal Experience</p>
-                <p class="px-14 text-sm text-[#4c4c4c] min-[500px]:px-20 mt-4">About 75 percent of our clients are occurring and their best satisfaction with our works is understood here. I hope you have the best experience in web-development with us in India</p>
+                <p class="px-14 text-sm text-[#4c4c4c] min-[500px]:px-20 min-[500px]:mt-4">About 75 percent of our clients are occurring and their best satisfaction with our works is understood here. I hope you have the best experience in web-development with us in India</p>
                 <p class="mt-6 text-sm"><a class="uppercase text-[#1f365c]" >Learn More</a></p>  
             </div>
             <div  v-bind:class="{'hidden': openTab !== 3, 'block': openTab === 3}">
                 <p class="font-['playfor-display'] pb-4 text-xl">Expertise and Innovation</p>
-                <p class="px-10 text-sm text-[#4c4c4c] min-[500px]:px-20 mt-4">We bring a team of seasoned professionals at the forefront of technological trends. Our innovative solutions are designed to give you a competitive edge in a rapidly evolving digital landscape.</p>
+                <p class="px-10 text-sm text-[#4c4c4c] min-[500px]:px-20 min-[500px]:mt-4">We bring a team of seasoned professionals at the forefront of technological trends. Our innovative solutions are designed to give you a competitive edge in a rapidly evolving digital landscape.</p>
                 <p class="mt-6 text-sm"><a class="uppercase text-[#1f365c]" >Learn More</a></p>  
             </div>
             <div  v-bind:class="{'hidden': openTab !== 4, 'block': openTab === 4}">
                 <p class="font-['playfor-display'] pb-4 text-xl">Commitment to Security</p>
-                <p class="px-12 text-sm text-[#4c4c4c] min-[500px]:px-20 mt-4"> Security is paramount in today's digital landscape. Our solutions are fortified with robust cybersecurity measures to safeguard your data and operations. </p>
+                <p class="px-12 text-sm text-[#4c4c4c] min-[500px]:px-20 min-[500px]:mt-4"> Security is paramount in today's digital landscape. Our solutions are fortified with robust cybersecurity measures to safeguard your data and operations. </p>
                 <p class="mt-6 text-sm"><a class="uppercase text-[#1f365c]" >Learn More</a></p>  
             </div>
             <div  v-bind:class="{'hidden': openTab !== 5, 'block': openTab === 5}">
                 <p class="font-['playfor-display'] pb-4 text-xl">Quality Assurance</p>
-                <p class="px-10 text-sm text-[#4c4c4c] min-[500px]:px-20 mt-4">We have a rigorous quality assurance process in place to guarantee that our solutions are of the highest standards, providing you with reliable and efficient systems.</p>
+                <p class="px-10 text-sm text-[#4c4c4c] min-[500px]:px-20 min-[500px]:mt-4">We have a rigorous quality assurance process in place to guarantee that our solutions are of the highest standards, providing you with reliable and efficient systems.</p>
                 <p class="mt-6 text-sm"><a class="uppercase text-[#1f365c]" >Learn More</a></p>  
             </div>
              
